@@ -1,6 +1,6 @@
 require 'rubygems'
-require 'twilio-ruby'
 require 'sinatra'
+require 'twilio-ruby'
 
 get '/' do
     'Hello World! Currently running version ' + Twilio::VERSION + \
